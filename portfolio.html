@@ -19,26 +19,29 @@
     <!-- HEADER -->
 
     <header class="header">
-        <div class="container header-content">
-            <nav class="header-nav">
-                <a href="index.html" class="header-logo"><span class="header-logo-web">Web</span>Studio</a>
-                <ul class="site-nav-list list">
-                    <li class="site-nav-item"><a href="index.html" class="site-nav-link">Студия</a></li>
-                    <li class="site-nav-item"><a href="portfolio.html" class="site-nav-link current">Портфолио</a></li>
-                    <li class="site-nav-item"><a href="" class="site-nav-link">Контакты</a></li>
+        <div class="header__content container">
+            <nav class="site-nav">
+                <a href="index.html" class="logo header__logo"><span class="logo__text">Web</span>Studio</a>
+                <ul class="site-nav__list list">
+                    <li class="site-nav__item">
+                        <a href="index.html" class="site-nav__link">Студия</a></li>
+                    <li class="site-nav__item">
+                        <a href="portfolio.html" class="site-nav__link site-nav__link--current">Портфолио</a></li>
+                    <li class="site-nav__item">
+                        <a href="" class="site-nav__link">Контакты</a></li>
                 </ul>
             </nav>
-            <ul class="contacts-header list">
-                <li class="contacts-header-item">
-                    <a href="mailto:info@devstudio.com" class="contacts-header-link">
-                        <svg class="contacts-icon" width="16" height="12">
+            <ul class="header-contacts list">
+                <li class="header-contacts__item">
+                    <a href="mailto:info@devstudio.com" class="header-contacts__link">
+                        <svg class="header-contacts__icon" width="16" height="12">
                             <use href="./images/sprite.svg#icon-mail"></use>
                         </svg>
                         info@devstudio.com</a>
                 </li>
-                <li class="contacts-header-item">
-                    <a href="tel:+380961111111" class="contacts-header-link">
-                        <svg class="contacts-icon" width="16" height="12">
+                <li class="header-contacts__item">
+                    <a href="tel:+380961111111" class="header-contacts__link">
+                        <svg class="header-contacts__icon" width="16" height="12">
                             <use href="./images/sprite.svg#icon-smartphone"></use>
                         </svg>
                         +38 096 111 11 11</a>
@@ -52,163 +55,163 @@
         <section class="portfolio section">
             <div class="container">            
             <h1 class="visually-hidden">Фильтр</h1>
-            <ul class="portfolio-list list">
-                <li class="portfolio-list-item"><button type="button" class="button second">Все</button></li>
-                <li class="portfolio-list-item"><button type="button" class="button second">Веб-сайты</button></li>
-                <li class="portfolio-list-item"><button type="button" class="button second">Приложения</button></li>
-                <li class="portfolio-list-item"><button type="button" class="button second">Дизайн</button></li>
-                <li class="portfolio-list-item"><button type="button" class="button second">Маркетинг</button></li>
+            <ul class="portfolio__list list">
+                <li class="portfolio__item"><button type="button" class="button portfolio__button">Все</button></li>
+                <li class="portfolio__item"><button type="button" class="button portfolio__button">Веб-сайты</button></li>
+                <li class="portfolio__item"><button type="button" class="button portfolio__button">Приложения</button></li>
+                <li class="portfolio__item"><button type="button" class="button portfolio__button">Дизайн</button></li>
+                <li class="portfolio__item"><button type="button" class="button portfolio__button">Маркетинг</button></li>
             </ul>
-            <ul class="work-list list">
-                <li class="work-list-item">
-                    <a class="work-list-link" href="https://github.com/rumpear">                        
-                        <div class="work-list-thumb">                            
-                            <img class="work-list-img" src="./images/portfolio1.jpg" alt="Экран ноутбука">
-                                <div class="work-list-overlay">
-                                    <p class="work-list-overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
+            <ul class="work-cards list">
+                <li class="work-cards__item">
+                    <a class="work-cards__link" href="https://github.com/rumpear">                        
+                        <div class="work-cards__thumb">                            
+                            <img class="work-cards__img" src="./images/portfolio1.jpg" alt="Экран ноутбука">
+                                <div class="work-cards__overlay">
+                                    <p class="work-cards__overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
                                         платформу для цифрового
                                         шпионажа и атак на защищённые сервера конкурентов.</p>
                                 </div>
                         </div>
-                        <div class="work-list-content">
-                            <h2 class="work-list-title">Технокряк</h2>
-                            <p class="work-list-text">Веб-сайт</p>                            
+                        <div class="work-cards__content">
+                            <h2 class="work-cards__title">Технокряк</h2>
+                            <p class="work-cards__text">Веб-сайт</p>                            
                         </div>
                     </a>
                 </li>
-                <li class="work-list-item">
-                    <a class="work-list-link" href="https://github.com/rumpear">
-                        <div class="work-list-thumb">
-                            <img class="work-list-img" src="./images/portfolio2.jpg" alt="Баскетбольная игра">
-                            <div class="work-list-overlay">
-                                <p class="work-list-overlay-text">Технокряк это современная площадка распространения коронавируса.
+                <li class="work-cards__item">
+                    <a class="work-cards__link" href="https://github.com/rumpear">
+                        <div class="work-cards__thumb">
+                            <img class="work-cards__img" src="./images/portfolio2.jpg" alt="Баскетбольная игра">
+                            <div class="work-cards__overlay">
+                                <p class="work-cards__overlay-text">Технокряк это современная площадка распространения коронавируса.
                                     Компании используют эту
                                     платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
                         </div>
-                        <div class="work-list-content">
-                            <h2 class="work-list-title">Постер New Orlean vs Golden Star</h2>
-                            <p class="work-list-text">Дизайн</p>
+                        <div class="work-cards__content">
+                            <h2 class="work-cards__title">Постер New Orlean vs Golden Star</h2>
+                            <p class="work-cards__text">Дизайн</p>
                         </div>
                     </a>
                 </li>
-                <li class="work-list-item">
-                    <a class="work-list-link" href="https://github.com/rumpear">
-                        <div class="work-list-thumb">
-                            <img class="work-list-img" src="./images/portfolio3.jpg" alt="Логотип Seafood">
-                            <div class="work-list-overlay">
-                                <p class="work-list-overlay-text">Технокряк это современная площадка распространения коронавируса.
+                <li class="work-cards__item">
+                    <a class="work-cards__link" href="https://github.com/rumpear">
+                        <div class="work-cards__thumb">
+                            <img class="work-cards__img" src="./images/portfolio3.jpg" alt="Логотип Seafood">
+                            <div class="work-cards__overlay">
+                                <p class="work-cards__overlay-text">Технокряк это современная площадка распространения коронавируса.
                                     Компании используют эту
                                     платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
                         </div>
-                        <div class="work-list-content">
-                            <h2 class="work-list-title">Ресторан Seafood</h2>
-                            <p class="work-list-text">Приложение</p>
+                        <div class="work-cards__content">
+                            <h2 class="work-cards__title">Ресторан Seafood</h2>
+                            <p class="work-cards__text">Приложение</p>
                         </div>
                     </a>
                 </li>
-                <li class="work-list-item">
-                    <a class="work-list-link" href="https://github.com/rumpear">
-                        <div class="work-list-thumb">
-                            <img class="work-list-img" src="./images/portfolio4.jpg" alt="Наушники">
-                            <div class="work-list-overlay">
-                                <p class="work-list-overlay-text">Технокряк это современная площадка распространения коронавируса.
+                <li class="work-cards__item">
+                    <a class="work-cards__link" href="https://github.com/rumpear">
+                        <div class="work-cards__thumb">
+                            <img class="work-cards__img" src="./images/portfolio4.jpg" alt="Наушники">
+                            <div class="work-cards__overlay">
+                                <p class="work-cards__overlay-text">Технокряк это современная площадка распространения коронавируса.
                                     Компании используют эту
                                     платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
                         </div>
-                        <div class="work-list-content">
-                            <h2 class="work-list-title">Проект Prime</h2>
-                            <p class="work-list-text">Маркетинг</p>
+                        <div class="work-cards__content">
+                            <h2 class="work-cards__title">Проект Prime</h2>
+                            <p class="work-cards__text">Маркетинг</p>
                         </div>
                     </a>
                 </li>
-                <li class="work-list-item">
-                    <a class="work-list-link" href="https://github.com/rumpear">
-                        <div class="work-list-thumb">
-                            <img class="work-list-img" src="./images/portfolio5.jpg" alt="Коробки">
-                            <div class="work-list-overlay">
-                                <p class="work-list-overlay-text">Технокряк это современная площадка распространения коронавируса.
+                <li class="work-cards__item">
+                    <a class="work-cards__link" href="https://github.com/rumpear">
+                        <div class="work-cards__thumb">
+                            <img class="work-cards__img" src="./images/portfolio5.jpg" alt="Коробки">
+                            <div class="work-cards__overlay">
+                                <p class="work-cards__overlay-text">Технокряк это современная площадка распространения коронавируса.
                                     Компании используют эту
                                     платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
                         </div>
-                        <div class="work-list-content">
-                            <h2 class="work-list-title">Проект Boxes</h2>
-                            <p class="work-list-text">Приложение</p>
+                        <div class="work-cards__content">
+                            <h2 class="work-cards__title">Проект Boxes</h2>
+                            <p class="work-cards__text">Приложение</p>
                         </div>
                     </a>
                 </li>
-                <li class="work-list-item">
-                    <a class="work-list-link" href="https://github.com/rumpear">
-                        <div class="work-list-thumb">
-                            <img class="work-list-img" src="./images/portfolio6.jpg" alt="Экран iMac">
-                            <div class="work-list-overlay">
-                                <p class="work-list-overlay-text">Технокряк это современная площадка распространения коронавируса.
+                <li class="work-cards__item">
+                    <a class="work-cards__link" href="https://github.com/rumpear">
+                        <div class="work-cards__thumb">
+                            <img class="work-cards__img" src="./images/portfolio6.jpg" alt="Экран iMac">
+                            <div class="work-cards__overlay">
+                                <p class="work-cards__overlay-text">Технокряк это современная площадка распространения коронавируса.
                                     Компании используют эту
                                     платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
                         </div>
-                        <div class="work-list-content">
-                            <h2 class="work-list-title">Inspiration has no Borders</h2>
-                            <p class="work-list-text">Веб-сайт</p>
+                        <div class="work-cards__content">
+                            <h2 class="work-cards__title">Inspiration has no Borders</h2>
+                            <p class="work-cards__text">Веб-сайт</p>
                         </div>
                     </a>
                 </li>
-                <li class="work-list-item">
-                    <a class="work-list-link" href="https://github.com/rumpear">
-                        <div class="work-list-thumb">
-                            <img class="work-list-img" src="./images/portfolio7.jpg" alt="Журнал">
-                            <div class="work-list-overlay">
-                                <p class="work-list-overlay-text">Технокряк это современная площадка распространения коронавируса.
+                <li class="work-cards__item">
+                    <a class="work-cards__link" href="https://github.com/rumpear">
+                        <div class="work-cards__thumb">
+                            <img class="work-cards__img" src="./images/portfolio7.jpg" alt="Журнал">
+                            <div class="work-cards__overlay">
+                                <p class="work-cards__overlay-text">Технокряк это современная площадка распространения коронавируса.
                                     Компании используют эту
                                     платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
                         </div>
-                        <div class="work-list-content">
-                            <h2 class="work-list-title">Издание Limited Edition</h2>
-                            <p class="work-list-text">Дизайн</p>
+                        <div class="work-cards__content">
+                            <h2 class="work-cards__title">Издание Limited Edition</h2>
+                            <p class="work-cards__text">Дизайн</p>
                         </div>
                     </a>
                 </li>
-                <li class="work-list-item">
-                    <a class="work-list-link" href="https://github.com/rumpear">
-                        <div class="work-list-thumb">
-                            <img class="work-list-img" src="./images/portfolio8.jpg" alt="Лейбл">
-                            <div class="work-list-overlay">
-                                <p class="work-list-overlay-text">Технокряк это современная площадка распространения коронавируса.
+                <li class="work-cards__item">
+                    <a class="work-cards__link" href="https://github.com/rumpear">
+                        <div class="work-cards__thumb">
+                            <img class="work-cards__img" src="./images/portfolio8.jpg" alt="Лейбл">
+                            <div class="work-cards__overlay">
+                                <p class="work-cards__overlay-text">Технокряк это современная площадка распространения коронавируса.
                                     Компании используют эту
                                     платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
                         </div>
-                        <div class="work-list-content">
-                            <h2 class="work-list-title">Проект LAB</h2>
-                            <p class="work-list-text">Маркетинг</p>
+                        <div class="work-cards__content">
+                            <h2 class="work-cards__title">Проект LAB</h2>
+                            <p class="work-cards__text">Маркетинг</p>
                         </div>
                     </a>
                 </li>
-                <li class="work-list-item">
-                    <a class="work-list-link" href="https://github.com/rumpear">
-                        <div class="work-list-thumb">
-                            <img class="work-list-img" src="./images/portfolio9.jpg" alt="Ноутбук">
-                            <div class="work-list-overlay">
-                                <p class="work-list-overlay-text">Технокряк это современная площадка распространения коронавируса.
+                <li class="work-cards__item">
+                    <a class="work-cards__link" href="https://github.com/rumpear">
+                        <div class="work-cards__thumb">
+                            <img class="work-cards__img" src="./images/portfolio9.jpg" alt="Ноутбук">
+                            <div class="work-cards__overlay">
+                                <p class="work-cards__overlay-text">Технокряк это современная площадка распространения коронавируса.
                                     Компании используют эту
                                     платформу для цифрового
                                     шпионажа и атак на защищённые сервера конкурентов.</p>
                             </div>
                         </div>
-                        <div class="work-list-content">
-                            <h2 class="work-list-title">Growing Business</h2>
-                            <p class="work-list-text">Приложение</p>
+                        <div class="work-cards__content">
+                            <h2 class="work-cards__title">Growing Business</h2>
+                            <p class="work-cards__text">Приложение</p>
                         </div>
                     </a>
                 </li>
@@ -220,41 +223,52 @@
     <!-- FOOTER -->
     
     <footer class="footer">
-        <div class="container footer-content">
+        <div class="footer__content container">
             <div class="footer-contacts-block">
-                <a href="index.html" class="footer-logo"><span class="footer-logo-web">Web</span>Studio</a>
-                <address class="adress">г. Киев, пр-т Леси Украинки, 26</address>
+                <a href="index.html" class="logo footer__logo"><span class="logo__text">Web</span>Studio</a>
+                <address class="footer__adress">г. Киев, пр-т Леси Украинки, 26</address>
                 <ul class="footer-contacts list">
-                    <li class="footer-contacts-item"><a href="mailto:info@devstudio.com"
-                            class="footer-contacts-link">info@devstudio.com</a></li>
-                    <li class="footer-contacts-item"><a href="tel:+380961111111" class="footer-contacts-link">+38 096 111 11
-                            11</a></li>
+                    <li class="footer-contacts__item"><a href="mailto:info@devstudio.com"
+                            class="footer-contacts__link">info@devstudio.com</a></li>
+                    <li class="footer-contacts__item"><a href="tel:+380961111111" class="footer-contacts__link">+38 096 111
+                            11 11</a></li>
                 </ul>
             </div>
-            <div class="footer-social-block">
-                <h2 class="footer-social-title">присоединяйтесь</h2>
-                <ul class="footer-social-list list">
-                    <li class="footer-social-item"><a class="footer-social-link" href="https://www.instagram.com/">
-                            <svg class="footer-social-icon" width="20" height="20">
+            <div class="footer__social-block">
+                <h2 class="footer__title">присоединяйтесь</h2>
+                <ul class="footer-social__list list">
+                    <li class="footer-social__item"><a class="footer-social__link" href="https://www.instagram.com/">
+                            <svg class="footer-social__icon" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-instagram"></use>
                             </svg>
                         </a></li>
-                    <li class="footer-social-item"><a class="footer-social-link" href="https://twitter.com/">
-                            <svg class="footer-social-icon" width="20" height="20">
+                    <li class="footer-social__item"><a class="footer-social__link" href="https://twitter.com/">
+                            <svg class="footer-social__icon" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-twitter"></use>
                             </svg>
                         </a></li>
-                    <li class="footer-social-item"><a class="footer-social-link" href="https://www.facebook.com/">
-                            <svg class="footer-social-icon" width="20" height="20">
+                    <li class="footer-social__item"><a class="footer-social__link" href="https://www.facebook.com/">
+                            <svg class="footer-social__icon" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-facebook"></use>
                             </svg>
                         </a></li>
-                    <li class="footer-social-item"><a class="footer-social-link" href="https://www.linkedin.com/">
-                            <svg class="footer-social-icon" width="20" height="20">
+                    <li class="footer-social__item"><a class="footer-social__link" href="https://www.linkedin.com/">
+                            <svg class="footer-social__icon" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-linkedin"></use>
                             </svg>
                         </a></li>
                 </ul>
+            </div>
+            <div class="footer__form-block">
+                <h2 class="footer__title">Подпишитесь на рассылку</h2>
+                <form class="footer-form">
+                    <input class="footer-form__email" type="email" name="footer-email" placeholder="E-mail">
+                    <button class="footer-form__button button-primary button" type="submit">Подписаться
+                        <svg class="footer-form__icon" width="24" height="24">
+                            <use href="./images/sprite.svg#icon-footer-send"></use>
+                        </svg>
+                    </button>
+                </form>
             </div>
         </div>
     </footer>

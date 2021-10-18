@@ -1,0 +1,35 @@
+.footer__form-block {
+  padding-top: 12px;
+  margin-left: auto;
+}
+
+.footer-form {
+  display: flex;
+}
+
+.footer-form__email {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: $primary-bg-color;
+
+  padding: 16px 15px;
+  margin-right: 12px;
+
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.25;
+
+  /* display: flex;
+  align-items: center; */
+}
+
+.footer-form__email::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.25;
+}
+
+.footer-form__icon {
+  margin-left: 10px;
+  fill: currentColor;
+}

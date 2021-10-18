@@ -1,0 +1,63 @@
+%button {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+}
+
+.button-primary {
+  @extend %button;
+  color: $primary-white-color;
+  background-color: $accent-color;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  display: inline-block;
+  padding: 10px 32px;
+  min-width: 200px;
+  height: 50px;
+
+  transition: background-color 250ms $timing-function, box-shadow 250ms $timing-function;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-hover-color;
+  }
+}
+
+.portfolio__button {
+  @extend %button;
+  color: $primmary-text-color;
+  background-color: $third-bg-color;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
+  display: inline-block;
+  padding: 6px 22px;
+  height: 38px;
+  transition: color 250ms $timing-function, background-color 250ms $timing-function,
+    box-shadow 250ms $timing-function;
+  &:hover,
+  &:focus {
+    color: $primary-white-color;
+    background-color: $accent-color;
+
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.footer-form__button {
+  @extend .button-primary;
+  padding: 10px 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms $timing-function;
+}

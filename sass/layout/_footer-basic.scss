@@ -1,0 +1,12 @@
+.footer {
+  background-color: $primary-bg-color;
+  line-height: 1.71;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer__content {
+  display: flex;
+  flex-wrap: wrap;
+}

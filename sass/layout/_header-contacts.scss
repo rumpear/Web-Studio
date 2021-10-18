@@ -1,0 +1,28 @@
+.header-contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.header-contacts__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-contacts__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: $secondary-text-color;
+
+  transition: color 250ms $timing-function;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.header-contacts__icon {
+  fill: currentColor;
+  margin-right: 10px;
+}

@@ -1,0 +1,18 @@
+.header {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  background-color: $primary-white-color;
+
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid #ececec;
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+}

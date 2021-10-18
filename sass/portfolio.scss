@@ -5,17 +5,13 @@
 @import './components/logo';
 @import './components/section';
 @import './components/container';
-@import './components/modal';
 
 @import './layout/body';
 @import './layout/header-basic';
 @import './layout/header-nav';
 @import './layout/header-contacts';
-@import './layout/hero';
-@import './layout/advantage';
-@import './layout/futures';
-@import './layout/team';
-@import './layout/clients';
+@import './pages/filter';
+@import './pages/grid';
 @import './layout/footer-basic';
 @import './layout/footer-contacts';
 @import './layout/footer-social';

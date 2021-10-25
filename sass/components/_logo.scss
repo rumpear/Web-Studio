@@ -1,19 +1,30 @@
 .logo {
   font-family: Raleway;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.17;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+  }
 }
 
 .header__logo {
   color: $primmary-text-color;
-  margin-right: 90px;
+  @media screen and (min-width: 1200px) {
+    margin-right: 90px;
+  }
 }
 
 .footer__logo {
   display: block;
   color: $primary-white-color;
   margin-bottom: 20px;
+
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
 }
 
 .logo__text {

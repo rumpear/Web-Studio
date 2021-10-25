@@ -1,0 +1,141 @@
+.mobile-nav {
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
+.mobile-nav__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  max-height: 40px;
+  max-width: 40px;
+
+  margin-left: auto;
+  padding: 0;
+
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  transition: fill 250ms $timing-function;
+  &:hover,
+  &:focus {
+    fill: $accent-color;
+  }
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.mobile-nav__button-close {
+  @extend .mobile-nav__button;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.mobile-nav__menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+  padding: 48px 40px;
+
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: space-between;
+
+  opacity: 0;
+  // pointer-events: none;
+  // visibility: hidden;
+
+  transform: translateX(100%);
+  transition: transform 250ms $timing-function, opacity 250ms $timing-function;
+  background-color: $primary-white-color;
+
+  &.is-open {
+    transform: translateX(0);
+    opacity: 1;
+    // visibility: visible;
+  }
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.mobile-nav__navigation {
+  margin-bottom: 302px;
+}
+
+.mobile-nav__navigation-item {
+  &:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
+
+.mobile-nav__navigation-link {
+  font-size: 40px;
+  color: $primmary-text-color;
+
+  transition: color 250ms $timing-function;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+
+  &--current {
+    color: $accent-color;
+    background-color: $primary-white-color;
+  }
+}
+
+.mobile-nav__contacts {
+  margin-bottom: 64px;
+}
+.mobile-nav__contacts-item {
+  &:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
+
+.mobile-nav__contacts-phone {
+  color: $accent-color;
+  font-size: 34px;
+}
+
+.mobile-nav__contacts-mail {
+  font-size: 24px;
+  color: $secondary-text-color;
+  transition: color 250ms $timing-function;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+.mobile-nav__social {
+  display: flex;
+}
+.mobile-nav__social-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-nav__social-item + .mobile-nav__social-item::before {
+  content: '';
+  display: block;
+  height: 100%;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.mobile-nav__social-link {
+  color: $accent-color;
+  line-height: 0.81;
+}

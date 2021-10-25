@@ -1,19 +1,35 @@
-.footer__social-block {
+.footer-social-bloc {
   padding-top: 12px;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
+
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
 }
 
-.footer__title {
+.footer-social-bloc__title {
   color: $primary-white-color;
   font-weight: 700;
   line-height: 0.85;
   font-size: 14px;
   text-transform: uppercase;
   margin-bottom: 20px;
+
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
 }
 
 .footer-social__list {
   display: flex;
   margin-right: -10px;
+
+  @media screen and (max-width: 1199px) {
+    justify-content: center;
+  }
 }
 
 .footer-social__item {

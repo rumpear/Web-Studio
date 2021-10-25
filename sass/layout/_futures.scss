@@ -1,3 +1,8 @@
+.futures {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
 .futures__title {
   font-size: 36px;
   font-weight: 700;

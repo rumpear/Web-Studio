@@ -42,11 +42,11 @@
   width: 100vw;
   height: 100vh;
   z-index: 3;
-  padding: 48px 40px;
+  padding: 60px 40px;
 
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   opacity: 0;
   // pointer-events: none;
@@ -67,7 +67,6 @@
 }
 
 .mobile-nav__navigation {
-  margin-bottom: 302px;
 }
 
 .mobile-nav__navigation-item {
@@ -104,7 +103,7 @@
 
 .mobile-nav__contacts-phone {
   color: $accent-color;
-  font-size: 34px;
+  font-size: 30px;
 }
 
 .mobile-nav__contacts-mail {

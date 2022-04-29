@@ -476,6 +476,7 @@ body {
 
 .work-cards {
   margin: -15px;
+  opacity: 1;
 }
 
 @media screen and (max-width: 767px) {
@@ -494,6 +495,15 @@ body {
 @media screen and (min-width: 1200px) {
   .work-cards {
     justify-content: center;
+  }
+}
+
+@keyframes ani {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 

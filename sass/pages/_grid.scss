@@ -1,7 +1,7 @@
 .work-cards {
   margin: -15px;
 
-  @media screen and (max-width:767px) {
+  @media screen and (max-width: 767px) {
     margin-bottom: -30px;
   }
 
@@ -12,6 +12,18 @@
 
   @media screen and (min-width: 1200px) {
     justify-content: center;
+  }
+
+  opacity: 1;
+  // animation: ani 2.5s forwards;
+}
+
+@keyframes ani {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
@@ -35,10 +47,10 @@
 
 .work-cards__item {
   margin: 15px;
-  
+
   border: 1px solid #eeeeee;
 
-  @media screen and (max-width:767px) {
+  @media screen and (max-width: 767px) {
     margin-bottom: 30px;
   }
   @media screen and (min-width: 768px) {

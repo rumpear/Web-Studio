@@ -190,10 +190,9 @@ function createMarkup(cardsData) {
               </picture>
               <div class="work-cards__overlay">
                 <p class="work-cards__overlay-text">
-                  Технокряк это современная площадка распространения
-                  коронавируса. Компании используют эту платформу для
-                  цифрового шпионажа и атак на защищённые сервера
-                  конкурентов.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Nemo at eos, modi atque animi illo sunt amet quo qui laboriosam magnam ratione mollitia? 
+                  Consectetur, provident. Quisquam, quidem, quisquam. 
                 </p>
               </div>
             </div>
